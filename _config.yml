@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: tokyustay # the main title
 
-tagline: reach to superintelligence # it will display as the sub-title
+tagline: research AI # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   blog
@@ -88,7 +88,7 @@ theme_mode: # [light | dark]
 img_cdn: "https://chirpy-img.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/commons/avatar.jpg"
+avatar: "/assets/img/avatar1.jpg"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
