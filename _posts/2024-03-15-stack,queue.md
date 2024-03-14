@@ -12,11 +12,11 @@ tags:
   ]
 ---
 
-#stack
+# stack
 
 스택을 쌓으며 가장 나중에 입장한 요소가 가장 먼저 pop
 
-```Python
+```python
 stack = []
 
 stack.append(1)
@@ -36,17 +36,17 @@ print(stack)
 
 result
 
-```Python
+```python
 [1, 2, 3, 5]
 [5, 3, 2, 1]
 [5, 3, 2, 1]
 ```
 
-#queue, deque
+# queue, deque
 
 first in first out
 
-```Python
+```python
 from collections import deque
 
 queue = deque() # 큐.스택 구현 라이브러리(시간복잡도 효율적)
