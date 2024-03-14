@@ -1,6 +1,6 @@
 ---
 title: "stack, queue, deque"
-date: 2024-03-11 17:00:00 +09:00
+date: 2024-03-15 01:00:00 +09:00
 categories: [algorithm, review]
 tags:
   [
