@@ -1,19 +1,16 @@
 ---
 title: "stack, queue, deque"
-date: 2024-03-15 01:00:00 +09:00
+date: 2024-03-15 01:01:00 +09:00
 categories: [algorithm, review]
 tags:
   [
     stack,
     queue,
-    deque,
-    .
-    .
-    .
+    deque
   ]
 ---
 
-# stack
+# Stack
 
 스택을 쌓으며 가장 나중에 입장한 요소가 가장 먼저 pop
 
@@ -43,7 +40,7 @@ result
 [5, 3, 2, 1]
 ```
 
-# queue
+# Queue
 
 first in first out
 
@@ -71,7 +68,7 @@ deque([3, 4, 5, 6])
 deque([6, 5, 4, 3])
 ```
 
-# deque
+# Deque
 
 효율적인 큐, 스택 라이브러리
 
