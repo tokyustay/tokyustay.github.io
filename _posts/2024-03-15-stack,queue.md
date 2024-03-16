@@ -42,7 +42,7 @@ result
 [5, 3, 2, 1]
 ```
 
-# queue, deque
+# queue
 
 first in first out
 
