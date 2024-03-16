@@ -6,7 +6,8 @@ tags:
   [
     stack,
     queue,
-    deque.
+    deque,
+    .
     .
     .
   ]
@@ -65,7 +66,7 @@ queue.reverse()
 print(queue)
 ```
 result
-```Python
+```python
 deque([3, 4, 5, 6])
 deque([6, 5, 4, 3])
 ```
