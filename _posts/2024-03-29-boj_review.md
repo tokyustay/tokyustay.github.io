@@ -11,12 +11,16 @@ tags:
 
 # 요약
 
-- 딕셔너리 시간복잡도 O(1), 리스트 O(N)
-- for문 등 간단한 알고리즘은 시간복잡도에 컷될 확률이 높다
-
+- 시간복잡도 딕셔너리 O(1), 리스트 O(N)
+- for문 등 간단한 알고리즘은 시간복잡도에서 컷될 확률이 높다
+<br/>
+<br/>
+<br/>
 # 10814 나이순 정렬
 
 - note : 2차원 배열 정렬, sort, key, lambda
+<br/>
+<br/>
 
 ```python
 import sys
@@ -47,10 +51,14 @@ for i in arr :
 21 Junkyu
 21 Dohyun
 ```
-
+<br/>
+<br/>
+<br/>
 # 18870 좌표 압축
 
 - note : 딕셔너리 정렬, 리스트-딕셔너리 시간복잡도, set
+<br/>
+<br/>
 
 ```python
 import sys
