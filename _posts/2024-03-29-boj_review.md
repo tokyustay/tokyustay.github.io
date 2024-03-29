@@ -1,12 +1,11 @@
 ---
 title: "boj review - sort, key, lambda, sys, dictionary, set"
-date: 2024-03-26 23:18:00 +09:00
-categories: [algoritm, boj]
+date: 2024-03-26 23:38:00 +09:00
+categories: [algorithm, boj]
 tags:
   [
-    series,
-    convergence,
-    divergence
+    10814,
+    18870
   ]
 math : true
 ---
