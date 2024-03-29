@@ -4,10 +4,9 @@ date: 2024-03-26 23:38:00 +09:00
 categories: [algorithm, boj]
 tags:
   [
-    10814,
-    18870
+    10814번,
+    18870번
   ]
-math : true
 ---
 
 # 요약
