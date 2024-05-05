@@ -29,7 +29,7 @@ task-specific 아키텍쳐 없이도 모든 task에 대해 이용 가능한 단�
 
 ## Perceiver
 
-![perceiver](/assets/img/perceiver/perceiver1.jpg)
+![perceiver](/assets/img/paper/perceiver/perceiver1.jpg)
 
 1. input data의 byte array를 latent array와 cross attetion시켜 데이터를 압축
 2. latent array의 self attetion 진형
@@ -39,6 +39,6 @@ task-specific 아키텍쳐 없이도 모든 task에 대해 이용 가능한 단�
 
 ## Perceiver IO
 
-![perceiver](/assets/img/perceiver/perceiverio1.jpg)
+![perceiver](/assets/img/paper/perceiver/perceiverio1.jpg)
 
 Perceiver모델에 output quert array를 추가하여 여러 task에 대한 decoding part추가
