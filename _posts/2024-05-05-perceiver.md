@@ -30,7 +30,7 @@ purpose : task-specific 아키텍쳐 없이도 모든 task에 대해 이용 가�
 
 ## **Perceiver**
 
-<center>![perceiver](/assets/img/paper/perceiver/perceiver1.png){: width="70%" height="70%")</center>
+<center><img src="/assets/img/paper/perceiver/perceiver1.png" width="70%" height="70%"></center>
 
 1. input data의 byte array를 latent array와 cross attetion시켜 latent space로 데이터를 압축
 2. latent array의 self attetion 진행
@@ -40,6 +40,6 @@ purpose : task-specific 아키텍쳐 없이도 모든 task에 대해 이용 가�
 
 ## **Perceiver IO**
 
-<center>![perceiver](/assets/img/paper/perceiver/perceiverio1.png){: width="70%" height="70%")</center>
+<center><img src="/assets/img/paper/perceiver/perceiverio1.png" width="70%" height="70%"></center>
 
 Perceiver모델에 output quert array를 추가하여 여러 task에 대한 decoding part추가
