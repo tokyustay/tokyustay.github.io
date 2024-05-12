@@ -39,6 +39,6 @@ task-specific 아키텍쳐 없이도 모든 task에 대해 이용 가능한 단�
 
 ## Perceiver IO
 
-![perceiver](/assets/img/paper/perceiver/perceiverio1.png)
+![perceiver](/assets/img/paper/perceiver/perceiverio1.png){: width="70%" height="70%"){: .center}
 
 Perceiver모델에 output quert array를 추가하여 여러 task에 대한 decoding part추가
