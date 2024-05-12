@@ -1,6 +1,6 @@
 ---
 title: "[Shorts Review] Perceiver/PerceiverIO"
-date: 2024-05-05 21:20:01 +09:00
+date: 2024-05-05 21:20:59 +09:00
 categories: [ai paper review]
 tags:
   [
