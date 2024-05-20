@@ -1,6 +1,6 @@
 ---
 title: "tensor vs list in python"
-date: 2024-05-05 21:20:59 +09:00
+date: 2024-05-14 15:48:56 +09:00
 categories: [ai, pytorch]
 tags:
   [
