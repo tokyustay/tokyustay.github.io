@@ -1,6 +1,7 @@
 /* The common styles */
 
 html {
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
   @media (prefers-color-scheme: light) {
     &:not([data-mode]),
     &[data-mode='light'] {
@@ -32,7 +33,7 @@ body {
     env(safe-area-inset-bottom) env(safe-area-inset-left);
   color: var(--text-color);
   -webkit-font-smoothing: antialiased;
-  font-family: $font-family-base;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* --- Typography --- */
@@ -754,7 +755,7 @@ $btn-mb: 0.5rem;
   }
 
   .site-title {
-    font-family: inherit;
+    font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 1.75rem;
     line-height: 1.2;
