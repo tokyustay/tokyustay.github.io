@@ -492,7 +492,7 @@ main {
   @extend %tag-hover;
 }
 
-/*.post-tag {
+.post-tag {
   display: inline-block;
   min-width: 2rem;
   text-align: center;
@@ -505,7 +505,7 @@ main {
   &:not(:last-child) {
     margin-right: 0.2rem;
   }
-}*/
+}
 
 .rounded-10 {
   border-radius: 10px !important;
