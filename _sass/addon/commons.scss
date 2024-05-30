@@ -706,7 +706,7 @@ $btn-mb: 0.5rem;
   overflow-y: auto;
   width: $sidebar-width;
   z-index: 99;
-  background: #FFB7C5;
+  background: #FFDDE6;;
   border-right: 1px solid var(--sidebar-border-color);
 
   /* Hide scrollbar for Chrome, Safari and Opera */
@@ -772,7 +772,7 @@ $btn-mb: 0.5rem;
   }
 
   .site-subtitle {
-    font-size: 95%;
+    font-size: 85%;
     color: var(--site-subtitle-color);
     margin-top: 0.25rem;
     word-spacing: 1px;
