@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: tokyustay # the main title
 
-tagline: research AI # it will display as the sub-title
+tagline: Physics & AI # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   blog
