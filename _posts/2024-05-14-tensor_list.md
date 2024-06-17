@@ -1,11 +1,13 @@
 ---
-title: "tensor vs list in python"
+title: "[Pytorch]tensor vs list"
 date: 2024-05-14 15:48:56 +09:00
-categories: [ai, pytorch]
+categories: [ai, study]
 tags:
   [
     ai,
-    pytorch
+    study,
+    pytorch,
+    tensor
   ]
 ---
 
