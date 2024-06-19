@@ -1,5 +1,5 @@
 ---
-title: "[알고리즘]binary search, bisect"
+title: "[알고리즘] binary search, bisect"
 date: 2024-03-21 02:04:00 +09:00
 categories: [algorithm, review]
 tags:

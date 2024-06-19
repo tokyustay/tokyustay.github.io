@@ -1,5 +1,5 @@
 ---
-title: "[백준]sort, key, lambda, sys, dictionary, set"
+title: "[백준] sort, key, lambda, sys, dictionary, set"
 date: 2024-03-26 23:38:00 +09:00
 categories: [algorithm, boj]
 tags:
