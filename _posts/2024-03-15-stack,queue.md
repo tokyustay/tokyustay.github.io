@@ -1,9 +1,10 @@
 ---
-title: "[알고리즘] stack, queue, deque"
+title: "[자료구조] stack, queue, deque"
 date: 2024-03-15 01:01:00 +09:00
 categories: [algorithm, review]
 tags:
   [
+    data structure,
     stack,
     queue,
     deque
