@@ -14,6 +14,8 @@ math: true
 
 # **선요약**
 
+<br/>
+
 **Dynamic Programming** : 동적 프로그래밍은 **최적 부분 구조(Optimal Substructure)**와 **겹치는 부분 문제(Overlapping Subproblems)** 속성을 가진 최적화 문제를 테이블을 사용하여 효율적으로 해결하는 방법
 
 - **최적 부분 구조**: 문제의 최적 해가 부분 문제의 최적 해로 구성됨
@@ -30,8 +32,8 @@ math: true
 <br/>
 
 - 점화식:
-  - $$ T1[j] = \min(T1[j-1] + a[0][j], T2[j-1] + t[1][j-1] + a[0][j]) $$
-  - $$ T2[j] = \min(T2[j-1] + a[1][j], T1[j-1] + t[0][j-1] + a[1][j]) $$
+  - $ T1[j] = \min(T1[j-1] + a[0][j], T2[j-1] + t[1][j-1] + a[0][j]) $
+  - $ T2[j] = \min(T2[j-1] + a[1][j], T1[j-1] + t[0][j-1] + a[1][j]) $
 
 <br/>
 
@@ -40,11 +42,11 @@ math: true
 <br/>
 
 
-1. $$ (A_1(A_2(A_3A_4))) $$
-2. $$ (A_1((A_2A_3)A_4)) $$
-3. $$ ((A_1A_2)(A_3A_4)) $$
-4. $$ ((A_1(A_2A_3))A_4) $$
-5. $$ (((A_1A_2)A_3)A_4) $$
+$ (A_1(A_2(A_3A_4))) $
+$ (A_1((A_2A_3)A_4)) $
+$ ((A_1A_2)(A_3A_4)) $
+$ ((A_1(A_2A_3))A_4) $
+$ (((A_1A_2)A_3)A_4) $
 
 <br/>
 
@@ -53,7 +55,7 @@ math: true
 <br/>
 
 - 점화식:
-  - $$ m[i][j] = \min_{i \leq k < j} (m[i][k] + m[k+1][j] + p[i-1] \times p[k] \times p[j]) $$
+  - $ m[i][j] = \min_{i \leq k < j} (m[i][k] + m[k+1][j] + p[i-1] \times p[k] \times p[j]) $
 
 <br/>
 <br/>
@@ -66,8 +68,8 @@ math: true
 
 ### **점화식**
 
-- \( T1[j] = \min(T1[j-1] + a[0][j], T2[j-1] + t[1][j-1] + a[0][j]) \)
-- \( T2[j] = \min(T2[j-1] + a[1][j], T1[j-1] + t[0][j-1] + a[1][j]) \)
+- $ T1[j] = \min(T1[j-1] + a[0][j], T2[j-1] + t[1][j-1] + a[0][j]) $
+- $ T2[j] = \min(T2[j-1] + a[1][j], T1[j-1] + t[0][j-1] + a[1][j]) $
 
 ### **코드 구현 (Python)**
 
@@ -104,7 +106,7 @@ print("최소 작업 시간:", assembly_line(a, t, e, x))
 
 ### **점화식**
 
-- $$ m[i][j] = \min_{i \leq k < j} (m[i][k] + m[k+1][j] + p[i-1] \times p[k] \times p[j]) $$
+- $ m[i][j] = \min_{i \leq k < j} (m[i][k] + m[k+1][j] + p[i-1] \times p[k] \times p[j]) $
 
 ### **코드 구현 (Python)**
 
