@@ -1,5 +1,5 @@
 ---
-title: "[알고리즘] dynamic programming : assembly Line Scheduling & matrix chain multiplication"
+title: "[알고리즘] dynamic programming : assembly line scheduling & matrix chain multiplication"
 date: 2024-06-26 12:22:00 +09:00
 categories: [algorithm, review]
 tags:
