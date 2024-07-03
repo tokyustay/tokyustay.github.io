@@ -26,9 +26,7 @@ math: true
 
 ### **문제 정의**
 
-여러 활동이 시작 시간과 종료 시간이 주어졌을 때, 서로 겹치지 않게 최대한 많은 활동을 선택하는 문제
-
-남은 시간 중에서 가장 빨리 끝나는 활동을 선택하면 전체적으로 가장 많은 활동을 선택할 수 있음
+여러 활동이 시작 시간과 종료 시간이 주어졌을 때, 서로 겹치지 않게 최대한 많은 활동을 선택하는 문제. 남은 시간 중에서 가장 빨리 끝나는 활동을 선택하면 전체적으로 가장 많은 활동을 선택할 수 있음
 
 ### **점화식**
 
@@ -67,4 +65,4 @@ print("Recursive activity selection:", recursive_activity_selector(s, f, 0, n))
 print("Greedy activity selection:", greedy_activity_selector(s, f))
 ```
 
-Activity Selection Problem의 시간 복잡도는 $O(n)$
+Activity Selection Problem의 시간 복잡도는 $O(n)$, activity가 정렬되어있지 않은 경우는 $O(n log n)$
