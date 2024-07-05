@@ -31,31 +31,33 @@ math: true
 
 <br/>
 
-- 점화식:
-  - $ T1[j] = \min(T1[j-1] + a[0][j], T2[j-1] + t[1][j-1] + a[0][j]) $
-  - $ T2[j] = \min(T2[j-1] + a[1][j], T1[j-1] + t[0][j-1] + a[1][j]) $
-
-<br/>
-
 **예시 2 : Matrix Chain Multiplication** : 행렬 곱셈 순서를 최적화하여 계산 비용을 최소화하는 문제
 
 <br/>
 
 
 $ (A_1(A_2(A_3A_4))) $
+
+<br/>
+
 $ (A_1((A_2A_3)A_4)) $
+
+<br/>
+
 $ ((A_1A_2)(A_3A_4)) $
+
+<br/>
+
 $ ((A_1(A_2A_3))A_4) $
+
+<br/>
+
 $ (((A_1A_2)A_3)A_4) $
 
 <br/>
 
 ![matrixchain](https://i.makeagif.com/media/1-19-2023/mpXkc0.gif)
 
-<br/>
-
-- 점화식:
-  - $ m[i][j] = \min_{i \leq k < j} (m[i][k] + m[k+1][j] + p[i-1] \times p[k] \times p[j]) $
 
 <br/>
 <br/>
