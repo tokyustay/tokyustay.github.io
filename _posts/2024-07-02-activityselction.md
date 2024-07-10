@@ -22,20 +22,19 @@ math: true
 <br/>
 <br/>
 
-## **Activity Selection Problem**
+# **Activity Selection Problem**
 
-### **문제 정의**
+## **문제 정의**
 
 여러 활동이 시작 시간과 종료 시간이 주어졌을 때, 서로 겹치지 않게 최대한 많은 활동을 선택하는 문제. 남은 시간 중에서 가장 빨리 끝나는 활동을 선택하면 전체적으로 가장 많은 활동을 선택할 수 있음
 
-### **점화식**
+## **점화식**
 
 - 최적 부분 구조:
   - $f_m = \min \{ f_k : a_k \in S_{ij} \}$
   - $a_m$은 가장 빨리 끝나는 활동
 
 
-### **코드 구현 (Python)**
 
 ```python
 def recursive_activity_selector(s, f, k, n):

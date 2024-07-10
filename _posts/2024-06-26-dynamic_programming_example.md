@@ -62,18 +62,17 @@ $ (((A_1A_2)A_3)A_4) $
 <br/>
 <br/>
 
-## **Assembly Line Scheduling Problem**
+# **Assembly Line Scheduling Problem**
 
-### **문제 정의**
+## **문제 정의**
 
 두 개의 조립 라인에서 각 작업 스테이션의 작업 시간과 라인 간 전환 시간이 주어졌을 때, 전체 작업 시간을 최소화하는 문제
 
-### **점화식**
+## **점화식**
 
 - $ T1[j] = \min(T1[j-1] + a[0][j], T2[j-1] + t[1][j-1] + a[0][j]) $
 - $ T2[j] = \min(T2[j-1] + a[1][j], T1[j-1] + t[0][j-1] + a[1][j]) $
 
-### **코드 구현 (Python)**
 
 ```python
 def assembly_line(a, t, e, x):
@@ -100,17 +99,16 @@ x = [18, 7]
 print("최소 작업 시간:", assembly_line(a, t, e, x))
 ```
 
-## **Matrix Chain Multiplication Problem**
+# **Matrix Chain Multiplication Problem**
 
-### **문제 정의**
+## **문제 정의**
 
 여러 행렬을 곱할 때 곱셈 순서를 최적화하여 계산 비용을 최소화하는 문제
 
-### **점화식**
+## **점화식**
 
 - $ m[i][j] = \min_{i \leq k < j} (m[i][k] + m[k+1][j] + p[i-1] \times p[k] \times p[j]) $
 
-### **코드 구현 (Python)**
 
 ```python
 def matrix_chain_order(p):
