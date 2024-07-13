@@ -1,5 +1,5 @@
 ---
-title: "[알고리즘] greedy algorithm : activity selection problem"
+title: "[알고리즘] activity selection problem"
 date: 2024-07-02 13:00:00 +09:00
 categories: [algorithm, review]
 tags:
@@ -13,8 +13,6 @@ math: true
 
 # **선요약**
 
-**Greedy Algorithm** : 매 단계에서 가장 좋아 보이는 선택을 반복적으로 하는 방법
-
 **Activity Selection Problem** : 주어진 활동들 중 겹치지 않게 가장 많은 활동을 선택하는 문제
 
 - Optimal Substructure Property와 Greedy Choice Property를 모두 만족하여 그리디 알고리즘으로 해결 가능
@@ -24,7 +22,6 @@ math: true
 
 # **Activity Selection Problem**
 
-## **문제 정의**
 
 여러 활동이 시작 시간과 종료 시간이 주어졌을 때, 서로 겹치지 않게 최대한 많은 활동을 선택하는 문제. 남은 시간 중에서 가장 빨리 끝나는 활동을 선택하면 전체적으로 가장 많은 활동을 선택할 수 있음
 

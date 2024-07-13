@@ -29,7 +29,7 @@ math: true
 <br/>
 <br/>
 
-## **Tree**
+# **Tree**
 
 **Tree** : undirected 그래프 중 acyclic이며 연결된 그래프
 
@@ -46,7 +46,7 @@ math: true
    D   E   F
 ```
 
-## **Forest**
+# **Forest**
 
 **Forest** : undirected 그래프 중 acyclic 그래프
 
@@ -63,7 +63,7 @@ math: true
    D   E   F        J   K
 ```
 
-## **Rooted Tree**
+# **Rooted Tree**
 
 **Rooted Tree** : 특정 노드가 루트로 지정된 Tree
 
@@ -79,7 +79,7 @@ math: true
    D   E   F
 ```
 
-## **Undirected Graph**
+# **Undirected Graph**
 
 **Undirected Graph** : 방향이 없는 그래프
 
@@ -94,7 +94,7 @@ math: true
     C -- D
 ```
 
-## **Binary Tree**
+# **Binary Tree**
 
 **Binary Tree** : 각 노드가 최대 두 개의 자식을 가질 수 있는 Rooted Tree
 
@@ -110,7 +110,7 @@ math: true
    D   E   F
 ```
 
-## **Complete Binary Tree**
+# **Complete Binary Tree**
 
 **Complete Binary Tree** : 모든 레벨이 꽉 찬 Binary Tree
 
