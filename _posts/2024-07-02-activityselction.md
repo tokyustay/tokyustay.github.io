@@ -43,22 +43,15 @@ def recursive_activity_selector(s, f, k, n):
     else:
         return []
 
-def greedy_activity_selector(s, f):
-    n = len(s)
-    A = [0]
-    k = 0
-    for m in range(1, n):
-        if s[m] >= f[k]:
-            A.append(m)
-            k = m
-    return A
+
 
 s = [0, 1, 3, 0, 5, 3, 5, 6, 8, 8, 2, 12]
 f = [6, 4, 5, 7, 9, 9, 9, 10, 11, 12, 14, 16]
 n = len(s)
 
 print("Recursive activity selection:", recursive_activity_selector(s, f, 0, n))
-print("Greedy activity selection:", greedy_activity_selector(s, f))
 ```
+
+## **시간 복잡도**
 
 Activity Selection Problem의 시간 복잡도는 $O(n)$, activity가 정렬되어있지 않은 경우는 $O(n log n)$

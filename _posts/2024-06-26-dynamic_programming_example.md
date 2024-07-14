@@ -27,44 +27,20 @@ math: true
 
 <br/>
 
-![assembly](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F996259335A082E7513)
-
-<br/>
-
 **예시 2 : Matrix Chain Multiplication** : 행렬 곱셈 순서를 최적화하여 계산 비용을 최소화하는 문제
 
-<br/>
 
-
-$ (A_1(A_2(A_3A_4))) $
-
-<br/>
-
-$ (A_1((A_2A_3)A_4)) $
-
-<br/>
-
-$ ((A_1A_2)(A_3A_4)) $
-
-<br/>
-
-$ ((A_1(A_2A_3))A_4) $
-
-<br/>
-
-$ (((A_1A_2)A_3)A_4) $
-
-<br/>
-
-![matrixchain](https://i.makeagif.com/media/1-19-2023/mpXkc0.gif)
-
-
-<br/>
 <br/>
 
 # **Assembly Line Scheduling Problem**
 
-두 개의 조립 라인에서 각 작업 스테이션의 작업 시간과 라인 간 전환 시간이 주어졌을 때, 전체 작업 시간을 최소화하는 문제
+두 개의 조립 라인에서 각 작업 스테이션의 작업 시간과 라인 간 전환 시간이 주어졌을 때, 전체 작업 시간을 최소화하는 문제. **이전까지의 작업 시간이 최적 부분 구조와 겹치는 부분 문제를 충족하기에 Dynamic Programming으로 해결할 수 있음**
+
+<br/>
+
+![assembly](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F996259335A082E7513)
+
+<br/>
 
 ## **점화식**
 
@@ -99,7 +75,22 @@ print("최소 작업 시간:", assembly_line(a, t, e, x))
 
 # **Matrix Chain Multiplication Problem**
 
-주어진 여러 행렬들을 전부 곱할 때 곱셈 순서를 최적화하여 계산 비용을 최소화하는 문제
+주어진 여러 행렬들을 전부 곱할 때 곱셈 순서를 최적화하여 계산 비용을 최소화하는 문제.  **이전까지의 행렬 곱 계산 비용이 최적 부분 구조와 겹치는 부분 문제를 충족하기에 Dynamic Programming으로 해결할 수 있음**
+
+<br/>
+
+
+$ (A_1(A_2(A_3A_4))) $
+$ (A_1((A_2A_3)A_4)) $
+$ ((A_1A_2)(A_3A_4)) $
+$ ((A_1(A_2A_3))A_4) $
+$ (((A_1A_2)A_3)A_4) $
+이 중에서 계산 비용이 가장 적은 행렬 곱 순서를 구하면 된다.
+<br/>
+
+![matrixchain](https://i.makeagif.com/media/1-19-2023/mpXkc0.gif)
+
+<br/>
 
 ## **점화식**
 
