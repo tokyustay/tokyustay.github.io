@@ -11,11 +11,11 @@ tags:
 math: true
 ---
 
-# **선요약**
+**선요약**
 
-**Activity Selection Problem** : 주어진 활동들 중 겹치지 않게 가장 많은 활동을 선택하는 문제
+`Activity Selection Problem` : 주어진 활동들 중 겹치지 않게 가장 많은 활동을 선택하는 문제
 
-- Optimal Substructure Property와 Greedy Choice Property를 모두 만족하여 그리디 알고리즘으로 해결 가능
+- `Optimal Substructure Property`와 `Greedy Choice Property`를 모두 만족하여 `Greedy Algorithm`으로 해결 가능
 
 <br/>
 <br/>

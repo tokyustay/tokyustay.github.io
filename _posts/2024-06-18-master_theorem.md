@@ -9,9 +9,9 @@ tags:
 math: true
 ---
 
-# **선요약**
+**선요약**
 
-**마스터 정리(Master Theorem)** : 분할 정복(Divide & Conquer) 기법에서 사용되는 알고리즘의 재귀식의 시간 복잡도를 분석하는 방법. 다음과 같은 형태의 재귀식을 해결하는 데 사용됨
+`마스터 정리(Master Theorem)` : `분할 정복(Divide & Conquer)` 기법에서 사용되는 알고리즘의 재귀식의 `시간 복잡도를 분석하는 방법`. 다음과 같은 형태의 재귀식을 해결하는 데 사용됨
 
 $
 T(n) = aT\left(\frac{n}{b}\right) + f(n) 

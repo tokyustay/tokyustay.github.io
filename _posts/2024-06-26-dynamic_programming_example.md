@@ -12,24 +12,22 @@ tags:
 math: true
 ---
 
-# **선요약**
+**선요약**
+
+`Dynamic Programming` : 동적 프로그래밍은 `최적 부분 구조(Optimal Substructure)`와 `겹치는 부분 문제(Overlapping Subproblems)` 속성을 가진 최적화 문제를 테이블을 사용하여 효율적으로 해결하는 방법
+
+- `최적 부분 구조`: 문제의 최적 해가 부분 문제의 최적 해로 구성됨
+- `겹치는 부분 문제`: 동일한 부분 문제가 반복해서 계산됨
 
 <br/>
 
-**Dynamic Programming** : 동적 프로그래밍은 **최적 부분 구조(Optimal Substructure)**와 **겹치는 부분 문제(Overlapping Subproblems)** 속성을 가진 최적화 문제를 테이블을 사용하여 효율적으로 해결하는 방법
-
-- **최적 부분 구조**: 문제의 최적 해가 부분 문제의 최적 해로 구성됨
-- **겹치는 부분 문제**: 동일한 부분 문제가 반복해서 계산됨
+`예시 1. Assembly Line Scheduling` : 여러 조립 라인에서 작업 시간과 전환 시간을 고려하여 전체 작업 시간을 최소화하는 문제
 
 <br/>
 
-**예시 1 : Assembly Line Scheduling** : 여러 조립 라인에서 작업 시간과 전환 시간을 고려하여 전체 작업 시간을 최소화하는 문제
+`예시 2. Matrix Chain Multiplication` : 행렬 곱셈 순서를 최적화하여 계산 비용을 최소화하는 문제
 
 <br/>
-
-**예시 2 : Matrix Chain Multiplication** : 행렬 곱셈 순서를 최적화하여 계산 비용을 최소화하는 문제
-
-
 <br/>
 
 # **Assembly Line Scheduling Problem**

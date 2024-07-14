@@ -10,12 +10,12 @@ tags:
 math: true
 ---
 
-# **선요약**
+**선요약**
 
-**Greedy Algorithm** : 매 단계에서 가장 좋아 보이는 선택을 반복적으로 하는 방법
+`Greedy Algorithm` : 매 단계에서 가장 좋아 보이는 선택을 반복적으로 하는 방법
 
-- **Optimal Substructure Property**: 최적 해가 부분 문제의 최적 해로 구성
-- **Greedy Choice Property**: 각 단계에서 지역적으로 최적의 선택이 전체적으로도 최적의 해를 보장
+- `Optimal Substructure Property`: 최적 해가 부분 문제의 최적 해로 구성
+- `Greedy Choice Property`: 각 단계에서 지역적으로 최적의 선택이 전체적으로도 최적의 해를 보장
 
 <br/>
 <br/>
