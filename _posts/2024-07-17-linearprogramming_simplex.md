@@ -1,11 +1,10 @@
 ---
 title: "[알고리즘] linear programming : simplex algorithm"
-date: 2024-07-31 15:30:00 +09:00
-categories: [algorithm, study]
+date: 2024-07-17 10:42:00 +09:00
+categories: [algorithm, review]
 tags:
   [
     algorithm,
-    study,
     linear programming,
     simplex algorithm,
     optimization
@@ -52,7 +51,6 @@ $
 \end{align*}
 $
 
-
 ## Slack Form
 
 Standard Form의 부등식을 등식으로 만들기 위해 느슨한 변수(Slack variable)를 도입하는 형식. 위의 Standard Form을 Slack Form으로 변경하면
@@ -65,7 +63,6 @@ $
 & x_1, x_2, s_1, s_2 \geq 0
 \end{align*}
 $
-
 
 # **Simplex Algorithm**
 
