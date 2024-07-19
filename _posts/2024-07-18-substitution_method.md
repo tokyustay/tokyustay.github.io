@@ -1,13 +1,11 @@
 ---
 title: "[알고리즘] substitution method"
 date: 2024-07-18 10:52:00 +09:00
-categories: [algorithm, study]
+categories: [algorithm, review]
 tags:
   [
     algorithm,
-    study,
     substitution method,
-    recurrence relations
   ]
 math: true
 ---
