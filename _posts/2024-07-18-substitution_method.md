@@ -41,27 +41,27 @@ $
 
 1. **추측 (Guessing)**
 
-$T(n) = O(n \log n)$이라고 추측. 즉, $T(n) \leq c n \log n$이 되는 상수 $c$가 존재한다고 가정
+$T(n) = O(n \log n)$ 이라고 추측. 즉, $T(n) \leq c n \log n$ 이 되는 상수 $c$ 가 존재한다고 가정
 
 2. **귀납법 적용 (Applying Induction)**
 
-수학적 귀납법을 사용하여 추측을 검증. 귀납 가정을 세워 $T(k) \leq c k \log k$가 모든 $k < n$에 대해 성립한다고 가정. 이 가정을 사용하여 $T(n)$을 검증
+수학적 귀납법을 사용하여 추측을 검증. 귀납 가정을 세워 $T(k) \leq c k \log k$ 가 모든 $k < n$ 에 대해 성립한다고 가정. 이 가정을 사용하여 $T(n)$ 을 검증
 
-$
-\begin{align*}
-T(n) & = 2T\left(\frac{n}{2}\right) + n \\
-     & \leq 2 \left( c \frac{n}{2} \log \frac{n}{2} \right) + n \\
-     & = c n \log \frac{n}{2} + n \\
-     & = c n (\log n - \log 2) + n \\
-     & = c n \log n - c n \log 2 + n \\
-     & \leq c n \log n - c n + n \\
-     & = c n \log n - (c - 1) n
-\end{align*}
-$
+
+$\begin{align*}$
+$T(n) = 2T\left(\frac{n}{2}\right) + n $
+     $ \leq 2 \left( c \frac{n}{2} \log \frac{n}{2} \right) + n $
+     $ = c n \log \frac{n}{2} + n $
+     $ = c n (\log n - \log 2) + n $
+     $ = c n \log n - c n \log 2 + n $
+     $ \leq c n \log n - c n + n $
+     $ = c n \log n - (c - 1) n$
+$\end{align*}$
+
 
 3. **검증**
 
-상수 $c$가 충분히 크다면, $c n \log n - (c - 1) n \leq c n \log n$을 만족. 따라서, $T(n) \leq c n \log n$이 성립함
+상수 $c$ 가 충분히 크다면, $c n \log n - (c - 1) n \leq c n \log n$ 을 만족. 따라서, $T(n) \leq c n \log n$ 이 성립함
 
 ```python
 def T(n):

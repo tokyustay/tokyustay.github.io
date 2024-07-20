@@ -25,7 +25,11 @@ math: true
 
 주어진 제약 조건 하에서 선형 함수의 최댓값 또는 최솟값을 찾는 최적화 문제. 이는 중학교때 배운 최대 이익 문제라고 생각하면 쉬움. 이러한 Linear Programming은 Simplex Method나 Interior Point Method로 해결할 수 있다
 
+<br/>
+
 ![lp](https://upload.wikimedia.org/wikipedia/commons/1/18/%EC%84%A0%ED%98%95_%EA%B3%84%ED%9A%8D%EB%B2%95.png)
+
+<br/>
 
 ## Standard From
 
