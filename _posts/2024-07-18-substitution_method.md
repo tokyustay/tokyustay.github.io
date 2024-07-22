@@ -48,15 +48,15 @@ $T(n) = O(n \log n)$ 이라고 추측. 즉, $T(n) \leq c n \log n$ 이 되는 �
 수학적 귀납법을 사용하여 추측을 검증. 귀납 가정을 세워 $T(k) \leq c k \log k$ 가 모든 $k < n$ 에 대해 성립한다고 가정. 이 가정을 사용하여 $T(n)$ 을 검증
 
 
-$\begin{align*}
-T(n) = 2T\left(\frac{n}{2}\right) + n 
-      \leq 2 \left( c \frac{n}{2} \log \frac{n}{2} \right) + n 
-      = c n \log \frac{n}{2} + n 
-      = c n (\log n - \log 2) + n 
-      = c n \log n - c n \log 2 + n 
-      \leq c n \log n - c n + n 
-      = c n \log n - (c - 1) n
-\end{align*}$
+$\begin{align*}$<br/>
+$T(n) = 2T\left(\frac{n}{2}\right) + n $<br/>
+    $  \leq 2 \left( c \frac{n}{2} \log \frac{n}{2} \right) + n $<br/>
+    $  = c n \log \frac{n}{2} + n $<br/>
+    $  = c n (\log n - \log 2) + n $<br/>
+    $  = c n \log n - c n \log 2 + n $<br/>
+    $  \leq c n \log n - c n + n $<br/>
+    $  = c n \log n - (c - 1) n$<br/>
+$\end{align*}$<br/>
 
 
 3. **검증**
