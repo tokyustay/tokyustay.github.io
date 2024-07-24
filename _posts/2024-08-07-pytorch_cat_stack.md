@@ -1,6 +1,6 @@
 ---
 title: "[PyTorch] torch.cat vs torch.stack"
-date: 2024-08-7 14:41:00 +09:00
+date: 2024-08-07 14:41:00 +09:00
 categories: [ai, study]
 tags:
   [
