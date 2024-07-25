@@ -1,5 +1,5 @@
 ---
-title: "[논문리뷰] Perceiver/PerceiverIO"
+title: "[쇼츠논문리뷰] Perceiver/PerceiverIO"
 date: 2024-05-05 21:20:59 +09:00
 categories: [ai, paper review]
 tags:
@@ -17,11 +17,7 @@ tags:
 
 `Perceiver` : 다양한 type의 input data들을 latent space와 cross attention을 이용해 처리하는 모델 구조
 
-<br/>
-
 `Perceiver IO` : classification에 특화되어 있는 Perceiver을 다양한 output 처리가 가능하게 확장
-
-<br/>
 
 `Contribution` : task-specific 아키텍쳐 없이도 모든 task에 대해 이용 가능한 단일 generality 모델 제안
 
