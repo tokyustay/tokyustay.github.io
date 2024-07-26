@@ -24,10 +24,8 @@ tags:
 <br/>
 <br/>
 
-# **모델 구조**
-<br/>
 
-## **Perceiver**
+# **Perceiver**
 
 ![perceiver](/assets/img/paper/perceiver/perceiver1.png){: width="70%" height="70%"}
 
@@ -38,7 +36,7 @@ tags:
 4. complexity가 linear complexity가 되어 다양한 type의 input에도 큰 계산량 없이 처리가능
 <br/>
 
-## **Perceiver IO**
+# **Perceiver IO**
 
 ![perceiverio](/assets/img/paper/perceiver/perceiverio1.png){: width="70%" height="70%"}
 
