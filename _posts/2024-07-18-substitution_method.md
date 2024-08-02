@@ -56,7 +56,7 @@ $T(n) = 2T\left(\frac{n}{2}\right) + n $
 
 <br/>
 
-$ \leq 2 \left( c \frac{n}{2} \log \frac{n}{2} \right) + n <br/>
+$ \leq 2 \left( c \frac{n}{2} \log \frac{n}{2} \right) + n $<br/>
 
 $  = c n \log \frac{n}{2} + n $<br/>
 
