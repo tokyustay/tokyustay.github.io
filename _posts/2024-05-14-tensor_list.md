@@ -1,5 +1,5 @@
 ---
-title: "[pytorch] tensor vs list"
+title: "[PyTorch] tensor vs list"
 date: 2024-05-14 15:48:56 +09:00
 categories: [ai, study]
 tags:
