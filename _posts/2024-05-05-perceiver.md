@@ -24,17 +24,26 @@ tags:
 
 # **Perceiver**
 
+<br/>
+
 ![perceiver](/assets/img/paper/perceiver/perceiver1.png){: width="70%" height="70%"}
 
+
+<br/>
 
 1. input data의 byte array를 latent array와 cross attetion시켜 latent space로 데이터를 압축
 2. latent array의 self attetion 진행
 3. 이를 반복하여 transformer tower구축
 4. complexity가 linear complexity가 되어 다양한 type의 input에도 큰 계산량 없이 처리가능
+
 <br/>
 
 # **Perceiver IO**
 
+<br/>
+
 ![perceiverio](/assets/img/paper/perceiver/perceiverio1.png){: width="70%" height="70%"}
+
+<br/>
 
 Perceiver모델에 output quert array를 추가하여 여러 task에 대한 decoding part추가
