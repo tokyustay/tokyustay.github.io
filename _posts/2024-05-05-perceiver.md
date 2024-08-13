@@ -1,5 +1,5 @@
 ---
-title: "[쇼츠논문리뷰] Perceiver/PerceiverIO"
+title: "[쇼츠논문리뷰] Perceiver IO : A General Architecture for Structured Inputs & Outputs"
 date: 2024-05-05 21:20:59 +09:00
 categories: [ai, paper review]
 tags:
