@@ -46,27 +46,27 @@ math: true
 
 예시는 다음과 같다
 
-$
+$$
 \begin{align*}
 \text{Maximize } & z = 3x_1 + 2x_2 \\
 \text{Subject to } & x_1 + x_2 \leq 4 \\
 & 2x_1 + x_2 \leq 6 \\
 & x_1 \geq 0, \ x_2 \geq 0
 \end{align*}
-$
+$$
 
 ## Slack Form
 
 Standard Form의 부등식을 등식으로 만들기 위해 느슨한 변수(Slack variable)를 도입하는 형식. 위의 Standard Form을 Slack Form으로 변경하면
 
-$
+$$
 \begin{align*}
 \text{Maximize } & z = 3x_1 + 2x_2 \\
 \text{Subject to } & x_1 + x_2 + s_1 = 4 \\
 & 2x_1 + x_2 + s_2 = 6 \\
 & x_1, x_2, s_1, s_2 \geq 0
 \end{align*}
-$
+$$
 
 # **Simplex Algorithm**
 
