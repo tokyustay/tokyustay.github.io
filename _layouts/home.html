@@ -2,7 +2,6 @@
 layout: default
 refactor: true
 ---
-
 {% include lang.html %}
 
 {% assign pinned = site.posts | where: 'pin', 'true' %}
@@ -11,7 +10,8 @@ refactor: true
 {% assign posts = pinned | concat: non_pinned %}
 
 <div id="post-list" class="flex-grow-1 px-xl-1">
-  {% for post in posts offset:paginator.page | times: paginator.per_page limit:paginator.per_page %}
+  {% assign offset_value = paginator.page | times: paginator.per_page %}
+  {% for post in posts offset: offset_value limit: paginator.per_page %}
     <article class="card-wrapper card">
       <a href="{{ post.url | relative_url }}" class="post-preview row g-0 flex-md-row-reverse">
         {% assign card_body_col = '12' %}

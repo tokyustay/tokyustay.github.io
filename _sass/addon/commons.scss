@@ -1,7 +1,7 @@
 /* The common styles */
 
 html {
-  @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
   @media (prefers-color-scheme: light) {
     &:not([data-mode]),
     &[data-mode='light'] {
@@ -203,7 +203,7 @@ i {
 
     @include label(inherit);
   }
-/*
+  /*
   .post-tag {
     line-height: 1.05rem;
     font-size: 0.85rem;
@@ -706,7 +706,7 @@ $btn-mb: 0.5rem;
   overflow-y: auto;
   width: $sidebar-width;
   z-index: 99;
-  background: #FFF7F6;;
+  background: #fff7f6;
   border-right: 1px solid var(--sidebar-border-color);
 
   /* Hide scrollbar for Chrome, Safari and Opera */
@@ -808,7 +808,6 @@ $btn-mb: 0.5rem;
         i {
           display: none;
         }
-
 
         span {
           font-size: 90%;
