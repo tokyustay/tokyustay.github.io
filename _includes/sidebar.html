@@ -30,7 +30,7 @@
       <!-- Categories and Sub-categories -->
       {% for category in site.categories %}
         {% assign category_name = category | first %}
-        {% assign category_url = category_name | slugify | url_encode %}
+        {% assign category_url = category_name | slugify | replace: '%2F', '/' | url_encode %}
         <li class="nav-item">
           <a
             href="{{ '/categories/' | append: category_url | relative_url }}"
