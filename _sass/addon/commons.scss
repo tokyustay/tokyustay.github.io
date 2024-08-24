@@ -790,9 +790,10 @@ $btn-mb: 0.5rem;
       width: 100%;
       padding-left: 1.5rem;
       padding-right: 1.5rem;
+      margin-top: 0.05rem; /* 상하 간격을 줄이기 위해 줄임 */
 
       a.nav-link {
-        @include pt-pb(0.6rem);
+        @include pt-pb(0.1rem); /* 패딩을 줄여서 상하 간격을 줄임 */
 
         display: flex;
         align-items: center;
@@ -800,11 +801,13 @@ $btn-mb: 0.5rem;
         font-weight: 400;
         font-size: 0.75rem;
 
+        color: #333333; /* 메인 카테고리 진한 검정색 */
+
         &:hover {
           background-color: var(--sidebar-hover-bg);
         }
 
-        /* Add this rule to hide icons */
+        /* 아이콘 숨김 */
         i {
           display: none;
         }
@@ -812,6 +815,14 @@ $btn-mb: 0.5rem;
         span {
           font-size: 90%;
           letter-spacing: 0.2px;
+        }
+      }
+
+      /* 서브 카테고리 스타일 */
+      &.ms-3 {
+        a.nav-link {
+          @include pt-pb(0rem);
+          color: #888888; /* 서브 카테고리 연한 색상 */
         }
       }
 
@@ -827,7 +838,7 @@ $btn-mb: 0.5rem;
       }
 
       &:not(:first-child) {
-        margin-top: 0.25rem;
+        margin-top: 0.15rem; /* 항목 간의 간격을 줄임 */
       }
     }
   }
@@ -900,7 +911,11 @@ $btn-mb: 0.5rem;
   }
 
   .nav-link {
-    transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; /* 글씨색 전환 효과 추가 */
+
+    &:hover {
+      color: #000000 !important; /* 마우스를 올렸을 때 글씨 색상을 #000000으로 강제로 설정 */
+    }
   }
 
   .post-preview {
