@@ -29,23 +29,17 @@
 
       <!-- Categories and Sub-categories -->
       {% for category in site.categories %}
+        {% assign category_name = category | first %}
+        {% assign category_url = category_name | slugify | url_encode %}
         <li class="nav-item">
-          <span class="nav-link d-flex justify-content-between">
+          <a
+            href="{{ '/categories/' | append: category_url | relative_url }}"
+            class="nav-link d-flex justify-content-between"
+          >
             <i class="fa-fw fas fa-folder"></i>
-            <a href="{{ '/categories/' | append: category[0] | slugify | url_encode }}" class="mx-2">
-              {{- category[0] -}}
-            </a>
+            <span>{{ category_name }}</span>
             <span class="text-muted small font-weight-light">({{ category[1].size }} posts)</span>
-          </span>
-
-          <!-- Sub-category Posts -->
-          <ul>
-            {% for post in category[1] %}
-              <li class="nav-item">
-                <a href="{{ post.url | relative_url }}" class="nav-link small">{{ post.title }}</a>
-              </li>
-            {% endfor %}
-          </ul>
+          </a>
         </li>
       {% endfor %}
     </ul>
@@ -93,4 +87,6 @@
     {% endfor %}
   </div>
 </aside>
+
+<!-- #sidebar -->
 <!-- #sidebar -->
