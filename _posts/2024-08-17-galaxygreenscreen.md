@@ -1,7 +1,7 @@
 ---
 title: "갤럭시 초록색 화면 현상 해결법 (green screen)"
 date: 2024-08-17 20:01:01 +09:00
-categories: [기타, 기타]
+categories: [etc]
 tags:
   [
     갤럭시
