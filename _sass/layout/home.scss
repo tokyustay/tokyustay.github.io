@@ -39,7 +39,7 @@
         @extend %text-clip;
 
         color: var(--heading-color) !important;
-        font-size: 1.25rem;
+        font-size: 1rem;
       }
 
       %muted {
@@ -48,7 +48,7 @@
 
       .card-text.content {
         @extend %muted;
-
+        font-size: 0.75rem;
         p {
           @extend %text-clip;
 
@@ -71,7 +71,7 @@
 
           color: inherit;
         }
-
+        font-size: 0.6rem;
         > div:first-child {
           display: block;
           white-space: nowrap;

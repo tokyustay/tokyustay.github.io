@@ -28,7 +28,8 @@
       </li>
 
       <!-- Categories and Sub-categories -->
-      {% for category in site.categories %}
+      {% assign sorted_categories = site.categories | sort %}
+      {% for category in sorted_categories %}
         {% assign category_name = category | first %}
         {% assign posts_of_category = category | last %}
         {% assign first_post = posts_of_category | first %}
@@ -95,13 +96,11 @@
           {%- capture url -%}
             javascript:location.href = 'mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@')
           {%- endcapture -%}
-        {% when 'rss' %}
-          {% assign url = '/feed.xml' | relative_url %}
         {% else %}
           {% assign url = entry.url %}
       {% endcase %}
 
-      {% if url %}
+      {% if url and entry.type != 'rss' %}
         <a
           href="{{ url }}"
           aria-label="{{ entry.type }}"

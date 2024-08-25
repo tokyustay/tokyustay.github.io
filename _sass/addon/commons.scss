@@ -218,6 +218,7 @@ i {
 }
 
 #access-lastmod {
+  font-size: 0.75rem;
   a {
     &:hover {
       @extend %link-hover;
@@ -226,6 +227,9 @@ i {
     @extend %no-bottom-border;
 
     color: inherit;
+  }
+  .content {
+    font-size: 0.6rem;
   }
 }
 
@@ -344,7 +348,7 @@ sup {
 
   border: 0;
   background: var(--card-bg);
-  box-shadow: var(--card-shadow);
+  //box-shadow: var(--card-shadow);
 
   &::before {
     @extend %rounded;
@@ -733,7 +737,7 @@ $btn-mb: 0.5rem;
     width: 7rem;
     height: 7rem;
     overflow: hidden;
-    box-shadow: var(--avatar-border-color) 0 0 0 2px;
+    /*box-shadow: var(--avatar-border-color) 0 0 0 2px;*/
     transform: translateZ(0); /* fixed the zoom in Safari */
 
     img {
