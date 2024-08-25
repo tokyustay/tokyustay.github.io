@@ -62,9 +62,13 @@ body {
 }
 
 a {
-  @extend %link-color;
+  color: #707070; /* 더 연한 회색 */
+  text-decoration: none; /* 밑줄 제거 */
 
-  text-decoration: none;
+  &:hover {
+    color: #808080; /* 호버 시 더 연한 회색 */
+    text-decoration: underline; /* 호버 시 밑줄 추가 */
+  }
 }
 
 img {

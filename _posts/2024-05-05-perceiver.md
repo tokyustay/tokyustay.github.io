@@ -10,7 +10,7 @@ tags:
   ]
 ---
 
-[Perceiver IO: A General Architecture for Structured Inputs & Outputs (2021.07)](https://arxiv.org/abs/2107.14795)
+> [Perceiver IO: A General Architecture for Structured Inputs & Outputs (2021.07)](https://arxiv.org/abs/2107.14795)
 
 **선요약**
 
