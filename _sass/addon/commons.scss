@@ -48,10 +48,10 @@ body {
     }
 
     @if $i < 5 {
-      $factor: 0.18rem;
+      $factor: 0.15rem;
 
       @if $i == 1 {
-        $factor: 0.23rem;
+        $factor: 0.20rem;
       }
 
       font-size: 1rem + (5 - $i) * $factor;
@@ -1502,7 +1502,7 @@ search {
   }
 
   .content {
-    font-size: 1.03rem;
+    font-size: 0.95rem;
   }
 }
 
