@@ -89,7 +89,7 @@ Google의 지원으로 **TensorFlow Serving**, **TensorFlow Lite**, **TensorFlow
 
 **하지만 쉽지 않은 디버깅으로 연구자들에게 환영받지 못했으며, 2.0부터 Eager Execution을 도입하여 동적 그래프 지원과 Keras와의 통합으로 이를 개선하였다**
 
-**이는 연구자들을 PyTorch에서 TensorFlow로 넘어오게 하기엔 부족했고, 오히려 TensorFlow만의 정적 계산 속도의 장점을 지웠다** 
+**이는 연구자들을 PyTorch에서 TensorFlow로 넘어오게 하기엔 부족했고, 오히려 TensorFlow만의 정적 계산 장점을 지웠다** 
 
 <br/>
 
@@ -180,7 +180,7 @@ for epoch in range(10):
 
 <br/>
 
-정리하자면, 현재 딥러닝의 연구분야는 PyTorch가, 산업분야는 TensorFlow가 주를 이루며 최근 JAX가 성장하려는 모습을 보인다. 그러나 오픈소스 프로젝트를 버리기로 유명한 Google의 행보를 볼 때, 과연 TensorFlow와 JAX가 잘 유지될지는 모르겠다
+정리하자면, 현재 딥러닝의 연구분야는 PyTorch가, 산업분야는 TensorFlow가 주를 이루며 최근 JAX가 성장하려는 모습을 보인다. 그러나 Meta와 달리 오픈소스 프로젝트를 버리기로 유명한 Google의 행보를 볼 때, 과연 TensorFlow와 JAX가 잘 유지될지는 모르겠다
 
 <br/>
 
