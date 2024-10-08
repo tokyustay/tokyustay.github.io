@@ -1,7 +1,7 @@
 ---
-title: "[선형대수] linearly Independent and depnedent"
+title: "[선형대수] linearly Independent and dependent"
 date: 2024-10-08 19:18:00 +09:00
-categories: [AI, study]
+categories: [ai, study]
 tags:
   [
     ai,
@@ -13,9 +13,9 @@ math: true
 
 **선요약**
 
-`선형 독립 (Linear Independence)` **:** 벡터 집합에서 어떤 벡터도 다른 벡터들의 선형 결합으로 표현될 수 없을 때, 그 집합은 선형 독립이라고 한다.
+`선형 독립 (Linear Independence)` **:** 벡터 집합에서 어떤 벡터도 다른 벡터들의 선형 결합으로 표현될 수 없을 때, 그 집합을 Linear Independence라고 한다.
 
-`선형 종속 (Linear Dependence)` **:** 벡터 집합에서 적어도 하나의 벡터가 다른 벡터들의 선형 결합으로 표현될 수 있을 때, 그 집합은 선형 종속이라고 한다.
+`선형 종속 (Linear Dependence)` **:** 벡터 집합에서 적어도 하나의 벡터가 다른 벡터들의 선형 결합으로 표현될 수 있을 때, 그 집합을 Linear Dependence라고 한다.
 
 <br/>
 <br/>
@@ -129,3 +129,7 @@ vectors_dependent = [
 print("선형 독립:", is_linearly_independent(vectors_independent))  # 출력: True
 print("선형 종속:", is_linearly_independent(vectors_dependent))    # 출력: False
 ```
+
+<br/>
+
+[혁펜하임, 선형 독립과 기저](https://youtu.be/mOOI4-BfjGQ?si=HydO3dh0RhdYnBpl)
