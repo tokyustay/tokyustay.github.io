@@ -68,11 +68,11 @@ $$
 
 Linear Independence와 Linear Dependence을 판단하는 일반적인 방법은 행렬의 Rank를 이용하는 것이다. 벡터 집합을 행렬의 row로 놓았을 때, 그 행렬의 Rank가 벡터의 수와 같으면 Linear Independence, 그렇지 않으면 Linear Dependence이다.
 
-### **Rank**
+**Rank**
 
 행렬의 Rank는 행렬의 Linear Independence인 row 또는 column의 최대 개수를 의미한다. 이를 통해 벡터 집합의 선형 독립성을 판단할 수 있다.
 
-#### **예시**
+### **예시**
 
 다음 행렬을 고려하자:
 
@@ -132,4 +132,5 @@ print("선형 종속:", is_linearly_independent(vectors_dependent))    # 출력:
 
 <br/>
 
+[Linear Algebra Stephen H. Friedberg - section 5.1](https://g.co/kgs/PAu2zpL)
 [혁펜하임, 선형 독립과 기저](https://youtu.be/mOOI4-BfjGQ?si=HydO3dh0RhdYnBpl)
