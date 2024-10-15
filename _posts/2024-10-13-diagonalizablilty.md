@@ -11,9 +11,10 @@ math: true
 **선요약**  
 
 `Diagonalizability` : nxn 행렬 A가 diagonalizable이면 A는 n개의 linearly independent eigenvector를 갖고 있다. 이를 확인하는 방법들은 다음과 같다.
-`1.Split` :
-`2.Multiplicity` :
-`3.`
+
+`1. Split` : 행렬 $( T $)의 characteristic polynomial이 split되는지 한다.
+
+`2. Multiplicity` : 각 eigenvalue $( \lambda $)에 대해, algebraic multiplicity가 $( n - \text{rank}(T - \lambda I) $)와 일치하는지 확인한다.
 
 <br/>
 

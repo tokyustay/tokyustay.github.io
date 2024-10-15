@@ -133,4 +133,5 @@ print("선형 종속:", is_linearly_independent(vectors_dependent))    # 출력:
 <br/>
 
 [Linear Algebra Stephen H. Friedberg - section 5.1](https://g.co/kgs/PAu2zpL)
+
 [혁펜하임, 선형 독립과 기저](https://youtu.be/mOOI4-BfjGQ?si=HydO3dh0RhdYnBpl)

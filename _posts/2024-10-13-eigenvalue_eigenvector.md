@@ -41,14 +41,14 @@ $$
 $( T $)를 행렬 $( A $)로 표현하고 식을 넘기면,
 
 $$
-(\A - \lambda I)\v = 0
+(A - \lambda I)v = 0
 $$
 
 여기서 $( A $)는 행렬, $( \lambda $)는 eigenvalue, $( v $)는 eigenvector를 나타내며, $( I $)는 단위 행렬이다.
 
 이를 통해 eigenvalue와 eigenvector를 찾을 수 있다.
 
-- $( (\A - \lambda I)\v $)에서 벡터 $( v $)는 0이 아닌 eigenvector이다( $( \v = 0 $) 인경우 너무 trivial한 solution이기 때문). 이때 행렬 $(\A - \lambda I = 0$)이 가역 이라면(역행렬이 존재), 양쪽에 역행렬을 곱해서 $( \v = 0$)이라는 결론이 나오므로 **행렬 $( \A - \lambda I = 0$)는 가역이 될 수 없어야 한다.** 그래야 비가역적이기 때문에 eigenvector가 0이 아닌 다른 값을 가질 수 있기 때문. **즉, $( \det(A - \lambda I) = 0 $)이 되어야 한다.**
+- $( (A - \lambda I)v = 0 $)에서 벡터 $( v $)는 0이 아닌 eigenvector이다( $( v = 0 $) 인경우 너무 trivial한 solution이기 때문). 이때 행렬 $(A - \lambda I = 0$)이 가역 이라면(역행렬이 존재한다면), 양쪽에 역행렬을 곱해서 $( v = 0$)이라는 결론이 나오므로 **행렬 $( A - \lambda I = 0$)는 가역이 될 수 없어야 한다.** 그래야 비가역적이기 때문에 eigenvector가 0이 아님을 보장하기 때문. **즉, $( \det(A - \lambda I) = 0 $)이 되어야 한다.**
 - $( \det(A - \lambda I) = 0 $)를 통해 구한 각 eigenvalue에 대해 $( A - \lambda I $)의 Null space를 구한다. Null space는 이 행렬에 의해 0 벡터로 보내지는 모든 벡터들의 공간으로 eigenvector v가 된다.
 - 행렬 $( A $)는 정사각 행렬이다.
 
@@ -78,11 +78,11 @@ $$
    A - (-2)I = \begin{pmatrix} 3 & 3 \\ 4 & 4 \end{pmatrix}
    $$
 
-   이 행렬을 풀어 보면 고유벡터는 $( \mathbf{v} = \begin{pmatrix} 1 \\ -1 \end{pmatrix} $).
+   이 행렬을 풀어 보면 고유벡터는 $ \mathbf{v} = \begin{pmatrix} 1 \\ -1 \end{pmatrix} $.
 
 <br/>
 
-# **P파이썬에서**
+# **파이썬에서**
 
 Python의 `numpy` 라이브러리를 사용하면 쉽게 고유값과 고유벡터를 계산할 수 있다.
 
@@ -110,4 +110,5 @@ print("고유벡터:\n", eigenvectors)
 <br/>
 
 [Linear Algebra Stephen H. Friedberg - section 5.2](https://g.co/kgs/PAu2zpL)
+
 [혁펜하임, 고윳값 & 고유 벡터](https://youtu.be/xDARfmKauuA?si=W7Zm-vLPYKp57P1m)
