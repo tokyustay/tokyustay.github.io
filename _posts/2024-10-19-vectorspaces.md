@@ -187,6 +187,6 @@ $W$가 유한 차원 벡터 공간 $V$의 부분 공간이면 $\dim(W) \leq \dim
 g(x) = \sum_{i=0}^{n} b_i f_i(x)
 \]
 
-여기서 $b_i$는 각 점에서의 함수값으로, 이를 통해 유일한 다항식을 찾을 수 있다.
+여기서 $b_i$는 각 점에서의 함수값으로, 이를 통해 유일한 다항식을 찾을 수 있다. 
 
 [Linear Algebra Stephen H. Friedberg - chapter 1](https://g.co/kgs/PAu2zpL)
