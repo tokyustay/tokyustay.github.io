@@ -64,13 +64,14 @@ $$
 
 <br/>
 
-# **Linear Independence, Linear Dependence 판단 방법**
+# **Linear Independence, Linear Dependence 행렬 판단**
 
-Linear Independence와 Linear Dependence을 판단하는 일반적인 방법은 행렬의 Rank를 이용하는 것이다. 벡터 집합을 행렬의 row로 놓았을 때, 그 행렬의 Rank가 벡터의 수와 같으면 Linear Independence, 그렇지 않으면 Linear Dependence이다.
+벡터 집합이 행렬일 때, Linear Independence와 Linear Dependence을 판단하는 일반적인 방법은 행렬의 Rank를 이용하는 것이다. 벡터 집합을 행렬의 row로 놓았을 때, 그 행렬의 Rank가 벡터의 수와 같으면 Linearly Independent 행렬, 그렇지 않으면 Linearly Dependent 행렬이다.
+
 
 **Rank**
 
-행렬의 Rank는 행렬의 Linear Independence인 row 또는 column의 최대 개수를 의미한다. 이를 통해 벡터 집합의 선형 독립성을 판단할 수 있다.
+행렬의 Rank는 행렬의 Linearly Independent row 또는 column의 최대 개수를 의미한다. 이를 통해 벡터 집합의 선형 독립성을 판단할 수 있다.
 
 ### **예시**
 

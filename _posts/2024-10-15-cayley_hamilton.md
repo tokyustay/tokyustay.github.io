@@ -1,6 +1,5 @@
 ---
-
-title: “[선형대수] invariant subspace, block matrix, cyclic subspace, Cayley-Hamilton theorem”  
+title: "[선형대수] invariant subspace, block matrix, cyclic subspace, cayley-hamilton theorem"
 date: 2024-10-15 11:18:00 +09:00  
 categories: [ai, study]  
 tags: [ ai, study, 선형대수, Invariant Subspace, Block Matrix, Cyclic Subspace, Cayley-Hamilton]  
@@ -57,7 +56,7 @@ $$
 
 여기서 $A_1$과 $A_3$는 각각 서로 독립적인 Invariant Subspace를 나타내고, 이 불변 Invariant Subspace들은 서로 상호작용하지 않는다. 따라서 이러한 블록 구조는 행렬의 성질을 더 쉽게 분석할 수 있게 도와준다.
 
-행렬 $A$가 nxn일 때, $A_1$ 이 kxk이면 $A_3$ $(n-k)(n-k)$ 가 되고 $A_2$는 $kx(n-k)$ 가 된다. $O$는 영행렬
+행렬 $A$가 nxn일 때, $A_1$ 이 kxk이면 $A_3$ $(n-k)$ x $(n-k)$가 되고 $A_2$는 $k$ x $(n-k)$ 가 된다. $O$는 영행렬
 
 <br/>
 

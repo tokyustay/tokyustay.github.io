@@ -12,7 +12,7 @@ math: true
 
 `Diagonalizability` : nxn 행렬 A가 diagonalizable이면 A는 n개의 linearly independent eigenvector를 갖고 있다. 이를 확인하는 방법들은 다음과 같다.
 
-`1. Split` : 행렬 $( T $)의 characteristic polynomial이 split되는지 한다.
+`1. Split` : 행렬 $( T $)의 characteristic polynomial이 split되는지 확인한다.
 
 `2. Multiplicity` : 각 eigenvalue $( \lambda $)에 대해, algebraic multiplicity가 $( n - \text{rank}(T - \lambda I) $)와 일치하는지 확인한다.
 
@@ -32,7 +32,7 @@ Split은 선형대수에서 행렬의 특성 다항식(characteristic polynomial
 
 예를 들어, $( A $)라는 행렬의 characteristic polynomial이 $( p(t) = (t - 1)(t - 2)^2 $)라고 할 때, 이 polynomial은 eigenvalue $(1$)과 $(2$)를 가지며, eigenvalue $(2$)는 중복도(Multiplicity)가 2인 값이다. 이 경우, polynomial이 분해되므로 split되었다고 말할 수 있습니다.
 
-행렬이 diagonalizable하면 split이 되지만, split이 된다고 Diagonalizability를 보장하진 않는다. (eigenvector가 부족할 수 있으므로)
+행렬이 diagonalizable하면 split이 되지만, split이 된다고 diagonalizability를 보장하진 않는다. (eigenvector가 부족할 수 있으므로)
 
 <br/>
 
@@ -79,7 +79,7 @@ $$
 characteristic polynomial이 모든 eigenvalue에 대해 split되는지 확인한다. characteristic polynomial이 split되지 않는다면, 행렬은 diagonalizable할 수 없다.
 
 **Step 3: Eigenvalue의 Algebraic & Geometric Multiplicity 비교**  
-eigenvalue의 algebraic multiplicity가 $(n - \text{rank}(T - \lambda I)$)와 일치하는지 확인한다. eigenvalue의 multiplicity가 1인 경우는 이 조건이 자동으로 충족된다. ( $(text{rank}(T - \lambda I)$)) 가 자동적으로 n - 1 이 되고 결과적으로 equality가 보장되므로)
+eigenvalue의 algebraic multiplicity가 $(n - \text{rank}(T - \lambda I)$)와 일치하는지 확인한다. eigenvalue의 multiplicity가 1인 경우는 이 조건이 자동으로 충족된다. ( $( text{rank}(T - \lambda I) $) ) 가 자동적으로 n - 1 이 되고 결과적으로 equality가 보장되므로)
 
 **Step 4: Eigenvector**  
 마지막으로 eigenvector들로 이루어진 basis를 찾는다. 모든 고유공간에서 선형 독립인 eigenvector들이 존재하면, 이 행렬은 diagonalizable입니다.
