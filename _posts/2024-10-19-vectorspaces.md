@@ -50,7 +50,7 @@ math: true
 
 ---
 
-</br>
+<br/>
 
 # **1.3 Subspaces**
 
@@ -78,6 +78,8 @@ math: true
 
 ---
 
+<br/>
+
 # **1.4 Linear Combinations and Systems of Linear Equations**
 
 ### **Linear Combination**
@@ -86,7 +88,7 @@ math: true
 
 ### **Span**
 
-`Span` : $S$가 벡터 공간 $V$의 비어있지 않은 부분 집합일 때, $span(S)$는 $S$의 벡터들의 모든 선형 결합들로 구성된 집합이다. 이때 $span(\emptyset) = \{0\}$. 직관적으로 벡터 집합에서 벡터의 크기와 상관없이 벡터들의 방향에 따라 표현될 수 있는 공간을 말함.
+`Span` : $S$가 벡터 공간 $V$의 비어있지 않은 부분 집합일 때, $span(S)$는 $S$의 벡터들의 모든 선형 결합들로 구성된 집합이다. 이때 $span(\emptyset) = \{0\}$. 직관적으로 벡터 집합에서 벡터의 크기와 상관없이 벡터들의 방향에 따라 표현될 수 있는 공간을 말헌더.
 
 ### **Theorem**
 
@@ -105,6 +107,8 @@ $S$의 span은 항상 $V$의 부분 공간이 되며, $S$를 포함하는 $V$의
 
 
 ---
+
+<br/>
 
 # **1.5 Linear Dependence and Linear Independence**
 
@@ -139,6 +143,8 @@ $S$가 $V$에서 선형 독립인 부분 집합이고, $v \in V \setminus S$일 
 > 반대로, $v \in span(S)$일 경우, $v$는 $S$의 벡터들의 선형 결합으로 표현되므로 $S \cup \{v\}$는 선형 종속이다.
 
 ---
+
+<br/>
 
 # **1.6 Bases and Dimension**
 
