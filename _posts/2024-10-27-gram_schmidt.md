@@ -129,3 +129,7 @@ S^\perp = \{ x \in V \mid \langle x, y \rangle = 0 \, \forall y \in S \}.
 ## **결론**
 
 이 장에서는 **그람-슈미트 직교화 과정**을 통해 선형 독립 집합을 **직교 집합**으로 변환하는 방법을 학습했으며, 이를 정규화해 **직교 정규 기저**를 생성하는 방법과 기하학적 의미를 배웠다. 
+
+<br/>
+
+[Linear Algebra Stephen H. Friedberg - chapter 1](https://g.co/kgs/PAu2zpL)
