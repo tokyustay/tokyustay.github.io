@@ -9,7 +9,7 @@ math: true
 
 # **6.2 The Gram-Schmidt Orthogonalization Process and Orthogonal Complements**
 
-**선 요약**
+**선요약**
 
 이 장에서는 **직교 정규 기저**와 **그람-슈미트 직교화 과정**을 다루며, 직교 정규 기저를 활용한 벡터 표현과 직교 보완 공간의 개념을 설명한다.  
 
