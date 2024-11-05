@@ -23,7 +23,9 @@ math: true
   선형 독립인 벡터 집합을 입력으로 받아 **직교 집합** 또는 **직교 정규 기저**를 생성하는 알고리즘이다. 이를 통해 벡터 공간의 구조를 더 명확하고 계산하기 쉬운 형태로 변환할 수 있다.
 
 
-### **Theorem**
+<br/>
+
+# **Theorem**
 
 **Theorem 6.3 (Orthogonal Representation)**
 
@@ -118,6 +120,8 @@ $$
    $$
    W^\perp = \{ x \in V \mid \langle x, y \rangle = 0 \forall y \in W \}.
    $$
+
+<br/>
 
 ### **결론**
 
