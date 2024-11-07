@@ -9,7 +9,7 @@ math: true
 
 # **6.4 Normal and Self-Adjoint Operators**
 
-**선 요약**  
+**선요약**  
 
 이 장에서는 **정규 연산자(Normal Operators)**와 **자기 수반 연산자(Self-Adjoint Operators)**의 정의와 성질, 그리고 이들의 대각화 가능성을 다룬다.
 
@@ -33,7 +33,7 @@ math: true
 
 - 행렬 $A$에 대해서는 $A = A^*$가 자기 수반의 조건이 된다.
 
-**Lemma (Eigenvectors and Adjoint Operators) ****
+**Lemma (Eigenvectors and Adjoint Operators)**
 
 $T$가 선형 연산자이고 $T$의 고유 벡터 $v$가 존재하면, $T^*$도 같은 고유값에 대해 고유 벡터 $v$를 가진다.  
 
@@ -41,6 +41,8 @@ $T$가 선형 연산자이고 $T$의 고유 벡터 $v$가 존재하면, $T^*$도
 > $T(v) = \lambda v$라 하자.  
 > $$0 = \langle (T - \lambda I)v, x \rangle = \langle v, (T - \lambda I)^*(x) \rangle = \langle v, (T^* - \bar{\lambda}I)x \rangle$$.  
 > 따라서 $v$는 $T^* - \bar{\lambda}I$ 의 영공간에 속하며, 이는 $T^*$도 $v$를 고유 벡터로 가진다는 것을 의미한다.
+
+<br/>
 
 **Theorem 6.14 (Schur's Theorem)**
 
@@ -68,6 +70,8 @@ $$
 
 이때, Theorem 6.10에 의해 $T$ 는 **$[T]_\beta$ 가 정규일 때** 정규이다. 여기서 $\beta$ 는 $V$ 의 직교 정규 기저이다.
 
+<br/>
+
 **Theorem 6.15 (Properties of Normal Operators)**  
 
 $V$ 위의 정규 연산자 $T$에 대해 다음이 성립한다:  
@@ -86,6 +90,8 @@ $V$ 위의 정규 연산자 $T$에 대해 다음이 성립한다:
 > 서로 다른 고유값 $\lambda_1 \neq \lambda_2$에 대해:  
 > $$\lambda_1 \langle x_1, x_2 \rangle = \langle T(x_1), x_2 \rangle = \langle x_1, T^*(x_2) \rangle = \bar{\lambda}_2 \langle x_1, x_2 \rangle.$$
 > 따라서 $\langle x_1, x_2 \rangle = 0$.
+
+<br/>
 
 **Theorem 6.16 (Normal Operators and Orthogonal Bases)** 
 
@@ -124,6 +130,8 @@ $T$가 유한 차원 내적 공간 $V$ 위의 자기 수반 연산자일 때 다
 > 이때 $A = [T]_\beta$ 는 자기 수반이므로 $A$는 실수 대칭 행렬이다.  
 > $T_A$ 를 $\mathbb{C}^n$ 위의 선형 연산자로 정의하면 $T_A$는 자기 수반이므로, 모든 고유값이 실수이다.  
 > 따라서 $T$의 특성 다항식은 실수에서 분할된다.
+
+<br/>
 
 **Theorem 6.17 (Self-Adjoint Operators and Diagonalization)**  
   
