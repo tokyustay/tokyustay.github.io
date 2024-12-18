@@ -109,12 +109,6 @@
 
   {% include metadata-hook.html %}
   <!-- MathJax -->
-  <script
-    type="text/javascript"
-    id="MathJax-script"
-    async
-    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
-  ></script>
   <script type="text/javascript">
     window.MathJax = {
       tex: {
@@ -130,6 +124,12 @@
       },
       options: {
         skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      },
+      startup: {
+        ready: () => {
+          MathJax.startup.defaultReady();
+          console.log('MathJax is ready');
+        }
       }
     };
   </script>
